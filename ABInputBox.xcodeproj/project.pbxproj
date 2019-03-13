@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ED330542237559D00659C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED330532237559D00659C57 /* AppDelegate.m */; };
+		4ED3305A2237559D00659C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED330582237559D00659C57 /* Main.storyboard */; };
+		4ED3305C223755A100659C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED3305B223755A100659C57 /* Assets.xcassets */; };
+		4ED3305F223755A100659C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED3305D223755A100659C57 /* LaunchScreen.storyboard */; };
+		4ED33062223755A100659C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33061223755A100659C57 /* main.m */; };
+		4ED3306C223755A100659C57 /* ABInputBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3306B223755A100659C57 /* ABInputBoxTests.m */; };
+		4ED33077223755A100659C57 /* ABInputBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33076223755A100659C57 /* ABInputBoxUITests.m */; };
+		4ED33086223755CB00659C57 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33085223755CB00659C57 /* ABViewController.m */; };
+		4ED330892237575F00659C57 /* ABInputBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED330882237575F00659C57 /* ABInputBarView.m */; };
+		4ED3308C22375B5700659C57 /* UITextView+ABPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3308B22375B5700659C57 /* UITextView+ABPlaceHolder.m */; };
+		4ED3308F2237778B00659C57 /* UIView+AB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3308E2237778B00659C57 /* UIView+AB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED33068223755A100659C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED330472237559C00659C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED3304E2237559D00659C57;
+			remoteInfo = ABInputBox;
+		};
+		4ED33073223755A100659C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED330472237559C00659C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED3304E2237559D00659C57;
+			remoteInfo = ABInputBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ED3304F2237559D00659C57 /* ABInputBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABInputBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED330522237559D00659C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ED330532237559D00659C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ED330592237559D00659C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ED3305B223755A100659C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ED3305E223755A100659C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ED33060223755A100659C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED33061223755A100659C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ED33067223755A100659C57 /* ABInputBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABInputBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED3306B223755A100659C57 /* ABInputBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABInputBoxTests.m; sourceTree = "<group>"; };
+		4ED3306D223755A100659C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED33072223755A100659C57 /* ABInputBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABInputBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED33076223755A100659C57 /* ABInputBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABInputBoxUITests.m; sourceTree = "<group>"; };
+		4ED33078223755A100659C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED33084223755CB00659C57 /* ABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
+		4ED33085223755CB00659C57 /* ABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
+		4ED330872237575F00659C57 /* ABInputBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABInputBarView.h; sourceTree = "<group>"; };
+		4ED330882237575F00659C57 /* ABInputBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABInputBarView.m; sourceTree = "<group>"; };
+		4ED3308A22375B5700659C57 /* UITextView+ABPlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ABPlaceHolder.h"; sourceTree = "<group>"; };
+		4ED3308B22375B5700659C57 /* UITextView+ABPlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ABPlaceHolder.m"; sourceTree = "<group>"; };
+		4ED3308D2237778B00659C57 /* UIView+AB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AB.h"; sourceTree = "<group>"; };
+		4ED3308E2237778B00659C57 /* UIView+AB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AB.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED3304C2237559D00659C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED33064223755A100659C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED3306F223755A100659C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ED330462237559C00659C57 = {
+			isa = PBXGroup;
+			children = (
+				4ED330512237559D00659C57 /* ABInputBox */,
+				4ED3306A223755A100659C57 /* ABInputBoxTests */,
+				4ED33075223755A100659C57 /* ABInputBoxUITests */,
+				4ED330502237559D00659C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ED330502237559D00659C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED3304F2237559D00659C57 /* ABInputBox.app */,
+				4ED33067223755A100659C57 /* ABInputBoxTests.xctest */,
+				4ED33072223755A100659C57 /* ABInputBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ED330512237559D00659C57 /* ABInputBox */ = {
+			isa = PBXGroup;
+			children = (
+				4ED330522237559D00659C57 /* AppDelegate.h */,
+				4ED330532237559D00659C57 /* AppDelegate.m */,
+				4ED33084223755CB00659C57 /* ABViewController.h */,
+				4ED33085223755CB00659C57 /* ABViewController.m */,
+				4ED330872237575F00659C57 /* ABInputBarView.h */,
+				4ED330882237575F00659C57 /* ABInputBarView.m */,
+				4ED3308A22375B5700659C57 /* UITextView+ABPlaceHolder.h */,
+				4ED3308B22375B5700659C57 /* UITextView+ABPlaceHolder.m */,
+				4ED3308D2237778B00659C57 /* UIView+AB.h */,
+				4ED3308E2237778B00659C57 /* UIView+AB.m */,
+				4ED330582237559D00659C57 /* Main.storyboard */,
+				4ED3305B223755A100659C57 /* Assets.xcassets */,
+				4ED3305D223755A100659C57 /* LaunchScreen.storyboard */,
+				4ED33060223755A100659C57 /* Info.plist */,
+				4ED33061223755A100659C57 /* main.m */,
+			);
+			path = ABInputBox;
+			sourceTree = "<group>";
+		};
+		4ED3306A223755A100659C57 /* ABInputBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ED3306B223755A100659C57 /* ABInputBoxTests.m */,
+				4ED3306D223755A100659C57 /* Info.plist */,
+			);
+			path = ABInputBoxTests;
+			sourceTree = "<group>";
+		};
+		4ED33075223755A100659C57 /* ABInputBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ED33076223755A100659C57 /* ABInputBoxUITests.m */,
+				4ED33078223755A100659C57 /* Info.plist */,
+			);
+			path = ABInputBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ED3304E2237559D00659C57 /* ABInputBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED3307B223755A100659C57 /* Build configuration list for PBXNativeTarget "ABInputBox" */;
+			buildPhases = (
+				4ED3304B2237559D00659C57 /* Sources */,
+				4ED3304C2237559D00659C57 /* Frameworks */,
+				4ED3304D2237559D00659C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABInputBox;
+			productName = ABInputBox;
+			productReference = 4ED3304F2237559D00659C57 /* ABInputBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ED33066223755A100659C57 /* ABInputBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED3307E223755A100659C57 /* Build configuration list for PBXNativeTarget "ABInputBoxTests" */;
+			buildPhases = (
+				4ED33063223755A100659C57 /* Sources */,
+				4ED33064223755A100659C57 /* Frameworks */,
+				4ED33065223755A100659C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED33069223755A100659C57 /* PBXTargetDependency */,
+			);
+			name = ABInputBoxTests;
+			productName = ABInputBoxTests;
+			productReference = 4ED33067223755A100659C57 /* ABInputBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ED33071223755A100659C57 /* ABInputBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED33081223755A100659C57 /* Build configuration list for PBXNativeTarget "ABInputBoxUITests" */;
+			buildPhases = (
+				4ED3306E223755A100659C57 /* Sources */,
+				4ED3306F223755A100659C57 /* Frameworks */,
+				4ED33070223755A100659C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED33074223755A100659C57 /* PBXTargetDependency */,
+			);
+			name = ABInputBoxUITests;
+			productName = ABInputBoxUITests;
+			productReference = 4ED33072223755A100659C57 /* ABInputBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ED330472237559C00659C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AB;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "零跑";
+				TargetAttributes = {
+					4ED3304E2237559D00659C57 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4ED33066223755A100659C57 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4ED3304E2237559D00659C57;
+					};
+					4ED33071223755A100659C57 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4ED3304E2237559D00659C57;
+					};
+				};
+			};
+			buildConfigurationList = 4ED3304A2237559C00659C57 /* Build configuration list for PBXProject "ABInputBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ED330462237559C00659C57;
+			productRefGroup = 4ED330502237559D00659C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ED3304E2237559D00659C57 /* ABInputBox */,
+				4ED33066223755A100659C57 /* ABInputBoxTests */,
+				4ED33071223755A100659C57 /* ABInputBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED3304D2237559D00659C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED3305F223755A100659C57 /* LaunchScreen.storyboard in Resources */,
+				4ED3305C223755A100659C57 /* Assets.xcassets in Resources */,
+				4ED3305A2237559D00659C57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED33065223755A100659C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED33070223755A100659C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED3304B2237559D00659C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED3308C22375B5700659C57 /* UITextView+ABPlaceHolder.m in Sources */,
+				4ED3308F2237778B00659C57 /* UIView+AB.m in Sources */,
+				4ED33062223755A100659C57 /* main.m in Sources */,
+				4ED33086223755CB00659C57 /* ABViewController.m in Sources */,
+				4ED330892237575F00659C57 /* ABInputBarView.m in Sources */,
+				4ED330542237559D00659C57 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED33063223755A100659C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED3306C223755A100659C57 /* ABInputBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED3306E223755A100659C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED33077223755A100659C57 /* ABInputBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ED33069223755A100659C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED3304E2237559D00659C57 /* ABInputBox */;
+			targetProxy = 4ED33068223755A100659C57 /* PBXContainerItemProxy */;
+		};
+		4ED33074223755A100659C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED3304E2237559D00659C57 /* ABInputBox */;
+			targetProxy = 4ED33073223755A100659C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ED330582237559D00659C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED330592237559D00659C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ED3305D223755A100659C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED3305E223755A100659C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ED33079223755A100659C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ED3307A223755A100659C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED3307C223755A100659C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABInputBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.ABInputBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ED3307D223755A100659C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABInputBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.ABInputBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ED3307F223755A100659C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABInputBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.ABInputBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABInputBox.app/ABInputBox";
+			};
+			name = Debug;
+		};
+		4ED33080223755A100659C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABInputBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.ABInputBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABInputBox.app/ABInputBox";
+			};
+			name = Release;
+		};
+		4ED33082223755A100659C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABInputBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.ABInputBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ABInputBox;
+			};
+			name = Debug;
+		};
+		4ED33083223755A100659C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ABInputBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.ABInputBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ABInputBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED3304A2237559C00659C57 /* Build configuration list for PBXProject "ABInputBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED33079223755A100659C57 /* Debug */,
+				4ED3307A223755A100659C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED3307B223755A100659C57 /* Build configuration list for PBXNativeTarget "ABInputBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED3307C223755A100659C57 /* Debug */,
+				4ED3307D223755A100659C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED3307E223755A100659C57 /* Build configuration list for PBXNativeTarget "ABInputBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED3307F223755A100659C57 /* Debug */,
+				4ED33080223755A100659C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED33081223755A100659C57 /* Build configuration list for PBXNativeTarget "ABInputBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED33082223755A100659C57 /* Debug */,
+				4ED33083223755A100659C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED330472237559C00659C57 /* Project object */;
+}
