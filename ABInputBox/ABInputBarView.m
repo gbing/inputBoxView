@@ -174,7 +174,7 @@
 
 - (void)sendBtnAction{
     if (self.block) {
-        self.block();
+        self.block(self.textView.text);
     }
 }
 

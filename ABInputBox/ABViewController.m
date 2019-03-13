@@ -34,8 +34,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:self.barView];
-    self.barView.block = ^{
-        NSLog(@"发送");
+    self.barView.block = ^(NSString *str){
+        NSLog(@"%@", str);
     };
 }
 

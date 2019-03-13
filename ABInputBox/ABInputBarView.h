@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^senBtnBlock)(void);
+typedef void(^senBtnBlock)(NSString *str);
 
 @interface ABInputBarView : UIView
 
